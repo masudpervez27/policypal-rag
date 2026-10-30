@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Chat bubbles should allow full-width content */
+.chat-bubble pre {
+    white-space: pre-wrap;
+    font-size: 0.8rem;
+}
